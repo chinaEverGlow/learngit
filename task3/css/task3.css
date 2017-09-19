@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.mojing{
+	width: 640px;
+	height: 1136px;
+	background-color: #68CDD5;
+}
+.head{
+	width: 640px;
+    height:39px;
+	background-color: black;
+}
+.xinhao{
+	/*font-family: Arial;
+	font-size: 25px;*/
+	font: 25px/39px arial,sans-serif;
+	color: #FFFFFF;
+	width: 110px;
+	float: left;
+	/*line-height: 39px;*/
+	padding-left: 88px;
+	
+	background:url(../img/xinhao.png) no-repeat center left;
+	}
+.date{
+	width: 131px;
+	float: left;
+	font: 25px/39px arial,sans-serif;
+	color: #FFFFFF;
+	padding-left: 69px;
+     background: url(../img/xinhao1.png) no-repeat center left;
+}
+.power{
+	width: 178px;
+	float: left;
+	font: 25px/39px arial,sans-serif;
+	color: #FFFFFF;
+	text-align: right;
+	padding-right: 64px;
+	background: url(../img/power.png) no-repeat center right;
+}
