@@ -1,11 +1,18 @@
 body{
 	margin: 0;
 	padding: 0;
-	max-width: 640px;
-	min-width: 320px;
+	/*max-width: 640px;
+	min-width: 320px;*/
 	margin: 0 auto;
 	 
 }
+.clearfix:before,
+.clearfix:after{
+	content:"";
+	display: table;
+	clear:both;
+}
+
 .mojing{
 	background-color: #68CDD5;
 	height:100%;
@@ -20,13 +27,13 @@ body{
 .xinhao{
 	font: 1.6em/1.56em arial,sans-serif;
 	color: #FFFFFF;
-	width: 17%;
+	width: 18%;
 	float: left;
 	padding-left: 14%;
 	background:url(../img/xinhao.png) no-repeat center left;
 	}
 .date{
-	width: 20%;
+	width: 19%;
 	float: left;
 	font: 1.6em/1.56em arial,sans-serif;
 	color: #FFFFFF;
@@ -56,9 +63,7 @@ body{
 	text-align: right;
 	float: left;
 }
-/*.arrow img{
-	position: ;
-}*/
+
 .mojing1{
 	width: 70%;
 	float: left;
@@ -67,11 +72,39 @@ body{
 	color: #FFFFFF;
 	text-align: center;
 }
+.more{
+	width: 14%;
+	height: 5.5em;
+	float: left;
+	background: url(../img/more.png) no-repeat center right ;
+} 
+.fanhui{
+	width: 100%;
+	height: 5.5em;
+	background: url(../img/back.png) no-repeat 2em 1.3em;
+}
+.logo{
+	margin-top: 1em;
+	width: 100%;
+	height: 4.5em;
+	background: url(../img/logo.png) no-repeat center center;
+}
+.content{
+	font: 1.9em/1.56em "黑体";
+	padding: 1.4em 3.2em 1.75em 2.8em;
+	}
 .images{
-	padding-bottom: 8%;
+	padding-bottom:8%;
 }
 .zuo{
     float: left;
     margin-left: 15%;
-    padding-bottom:8%;
+    padding-bottom:2%;
     color:#FFF;
+    }
+.you{
+    float: right;
+    margin-right: 15%;
+    padding-bottom:2%;
+    color:#FFF;
+    }
