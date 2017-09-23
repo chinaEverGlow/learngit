@@ -4,7 +4,8 @@ body{
 	/*max-width: 640px;
 	min-width: 320px;*/
 	margin: 0 auto;
-	 
+	background-color: #68CDD5;
+		 
 }
 .clearfix:before,
 .clearfix:after{
@@ -14,7 +15,7 @@ body{
 }
 
 .mojing{
-	background-color: #68CDD5;
+	/*background-color: #68CDD5;*/
 	height:100%;
 	/*max-height: 1136px;*/
 	
@@ -92,6 +93,8 @@ body{
 .content{
 	font: 1.9em/1.56em "黑体";
 	padding: 1.4em 3.2em 1.75em 2.8em;
+	color: #FFF;
+	text-align: center;
 	}
 .images{
 	padding-bottom:8%;
