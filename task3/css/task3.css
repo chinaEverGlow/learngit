@@ -63,6 +63,11 @@ body{
 	color: #FFFFFF;
 	text-align: right;
 	float: left;
+	
+}
+.arrow a{
+	text-decoration: none;
+	color: #FFFFFF;
 }
 
 .mojing1{
@@ -92,9 +97,9 @@ body{
 }
 .content{
 	font: 1.9em/1.56em "黑体";
-	padding: 1.4em 3.2em 1.75em 2.8em;
+	padding: 4% 18% 3% 18%;
 	color: #FFF;
-	text-align: center;
+	/*text-align: center;*/
 	}
 .images{
 	padding-bottom:8%;
