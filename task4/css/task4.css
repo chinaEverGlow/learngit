@@ -1,59 +1,67 @@
-body,p{
+body,
+p {
 	padding: 0;
 	margin: 0;
 	background-color: #EFF0F4;
 }
+
 .clearfix:before,
-.clearfix:after{
-	content:"";
+.clearfix:after {
+	content: "";
 	display: table;
-	clear:both;
+	clear: both;
 }
 
-.login_header{
+.login_header {
 	width: 100%;
 	height: 88px;
 	background-color: #5FBFCD;
 	position: relative;
-	
 }
-.login_header a{
+
+.login_header a {
 	float: left;
 	display: block;
 	font: 2em/2.75em "黑体";
 	text-decoration: none;
 	color: #FFF;
 }
-.login_header span{
+
+.login_header span {
 	float: left;
 	font: 2.25em/2.4em"黑体";
 	color: #FFF;
 	position: absolute;
-	left: 50%;
+	left: 45%;
 }
-.login_header .close{
+
+.login_header .close {
 	position: absolute;
 	left: 2%;
 }
-.login_header .register{
+
+.login_header .register {
 	position: absolute;
 	right: 2%;
 }
-.login_name{
+
+.login_name {
 	/*margin-top: 1em;
 	width: 100%;
 	height: 100px;*/
 	height: 13.9%;
-    background-color: white;
-    margin-top: 2.5%;
-    padding: 2.8% 5.6%;
-    border: none;
+	background-color: white;
+	margin-top: 2.5%;
+	padding: 2.8% 5.6%;
+	border: none;
 }
-.login_name img{
+
+.login_name img {
 	padding-right: 2.8%;
-    vertical-align: middle;
+	vertical-align: middle;
 }
-.login_name input{
+
+.login_name input {
 	/*width: 100%;
 	height: 100px;
 	padding-left: 10%;
@@ -61,25 +69,28 @@ body,p{
 	font: 2em/2em "黑体";
 	background: url(../img/iphone.png)no-repeat center left;*/
 	border: none;
-    font-size: 2em;
-    vertical-align: middle;
-    outline: none;
+	font-size: 2em;
+	vertical-align: middle;
+	outline: none;
 }
-.login_password{
+
+.login_password {
 	/*margin-top: 1em;
 	width: 100%;
 	height: 100px;*/
 	height: 13.9%;
-    background-color: white;
-    margin-top: 2.5%;
-    padding: 2.8% 5.6%;
-    border: none;
+	background-color: white;
+	margin-top: 2.5%;
+	padding: 2.8% 5.6%;
+	border: none;
 }
-.login_password img{
+
+.login_password img {
 	padding-right: 2.8%;
-    vertical-align: middle;
+	vertical-align: middle;
 }
-.login_password input{
+
+.login_password input {
 	/*width: 100%;
 	height: 100px;
 	padding-left: 10%;
@@ -87,36 +98,39 @@ body,p{
 	font: 2em/2em "黑体";
 	background: url(../img/iphone.png)no-repeat center left;*/
 	border: none;
-    font-size: 2em;
-    vertical-align: middle;
-    outline: none;
+	font-size: 2em;
+	vertical-align: middle;
+	outline: none;
 }
-.login_commit{
+
+.login_commit {
 	width: 100%;
 	height: 88px;
 	margin-top: 4%;
 	background-color: #5FBFCD;
 	position: relative;
 }
-.login_commit a{
+
+.login_commit a {
 	float: left;
 	display: block;
 	font: 2em/2.75em "黑体";
 	text-decoration: none;
 	color: #FFF;
 	position: absolute;
-	left: 50%;
+	left: 45%;
 }
-.login_forget{
+
+.login_forget {
 	width: 100%;
 	/*height: 88px;*/
 	position: relative;
 }
-.login_forget a{
+
+.login_forget a {
 	position: absolute;
 	right: 2%;
 	font: 2em/2.75em "黑体";
 	text-decoration: none;
 	color: #5BC0CF;
-	
 }
