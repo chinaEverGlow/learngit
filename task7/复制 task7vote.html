@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>task7投票页</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap/3.3.6/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/task7vote.css" />
+		<script src="js/bootstrap/3.3.6/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery/2.0.0/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+
+		</script>
+	</head>
+
+	<body>
+		<div class="vote-title">投票</div>
+		<div class="vote-main">
+			<div class="vote-music">
+				<span>发言讨论结束，大家请投 !</span>
+				<audio src="img/财富自由.mp3" id="aud"></audio>
+				<img src="img/bofang.png" onclick="aud_play()" />
+			</div>
+			<div class="sanjiao">
+				<img src="img/sanjiao.png" />
+				<p class="note">点击得票数最多的人的头像</p>
+			</div>
+			<div class="select">
+				<div class="select5">
+					<p class="sm1">水民</p>
+					<p class="one">1号</p>
+				    <div class="box1">
+				    	<a href="#" class="select1"><img src="img/one.png"/></a>
+				    	<a href="#" class="select2"><img src="img/two.png"/></a>
+				    	<a href="#" class="select3"><img src="img/three.png"/></a>
+				    	<a href="#" class="select4"><img src="img/fire.png"/></a>
+				    </div>
+				</div>
+				<div>
+					<p class="sm2">水民</p>
+					<p class="two">2号</p>
+				</div>
+				<div>
+					<p class="jingcha">警察</p>
+					<p class="three">3号</p>
+				</div>
+				<div>
+					<p class="faguan">法官</p>
+					<p class="four">4号</p>
+				</div>
+				<div>
+					<p class="jujishou">狙击手</p>
+					<p class="five">5号</p>
+				</div>
+				<div>
+					<p class="yisheng">医生</p>
+					<p class="six">6号</p>
+				</div>
+				<div>
+					<p class="shashou">杀手</p>
+					<p class="qi">7号</p>
+				</div>
+				<div>
+					<p class="sm8">水民</p>
+					<p class="ba">8号</p>
+				</div>
+				<div>
+					<p class="sm9">水民</p>
+					<p class="nine">9号</p>
+				</div>
+				<div>
+					<p class="sm1">水民</p>
+					<p class="one">10号</p>
+				</div>
+				<div>
+					<p class="sm2">水民</p>
+					<p class="two">11号</p>
+				</div>
+				<div>
+					<p class="jingcha">警察</p>
+					<p class="three">12号</p>
+				</div>
+				<div>
+					<p class="sm1">水民</p>
+					<p class="one">10号</p>
+				</div>
+				<div>
+					<p class="sm2">水民</p>
+					<p class="two">11号</p>
+				</div>
+				<div>
+					<p class="jingcha">警察</p>
+					<p class="three">12号</p>
+				</div>
+			</div>
+		</div>
+		<div class="vote-footer">
+			<a href="task7result.html"><button class="btn btn-primary enter">投死</button></a>
+
+		</div>
+		<script type="text/javascript">
+			function aud_play() {
+
+				document.getElementById("aud").play();
+
+			}
+		</script>
+	</body>
+
+</html>
