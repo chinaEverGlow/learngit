@@ -11,9 +11,9 @@ body{
 	display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../img/home.png)no-repeat ,url(../img/tip.png)no-repeat;
-    background-size:2.3rem 2rem, 2rem 2rem;
-    background-position:2% 50%, 98% 50%;
+    background: url(../img/tip.png)no-repeat;
+    background-size:2rem 2rem;
+    background-position:98% 50%;
     background-color: #29bde0;
     border-bottom: 1px solid #74d4eb;
     position: fixed;
@@ -24,7 +24,7 @@ body{
 	height: 2rem;
 	position: fixed;
 	top: 1rem;
-	left: 2rem;
+	left: 1rem;
 }
 .main{
 	width: 100%;
